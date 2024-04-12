@@ -230,3 +230,15 @@ specific interest in ONE treatment at a time in causal inference
 - No need to understand distribution of the residuals since we’re not
   assessing model fit  
 - No need to do train-testing split
+
+# Heterogeneity analysis
+
+Think about how two factors can interact.
+
+1.  The interaction term in the lm is the additional lift due to
+    combining two factors  
+2.  That is, the interaction term gives you the change in the dependent
+    variable one can expect if both treatments are present
+    simultaneously  
+3.  Heterogeneity analysis allows us to identify where the effect is
+    located
